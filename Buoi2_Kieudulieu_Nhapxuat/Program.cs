@@ -10,6 +10,7 @@ namespace Buoi2_Kieudulieu_Nhapxuat
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.Unicode; 
             Console.OutputEncoding = Encoding.Unicode;
             // Biến: Trong lập trình, biến được tạo ra để lưu trữ
             // dữ liệu, mỗi biến tạo ra sẽ được lưu trữ riêng
@@ -65,8 +66,34 @@ namespace Buoi2_Kieudulieu_Nhapxuat
             Console.WriteLine("Hãy nhập cân nặng: ");
             float cannnang = Convert.ToSingle(Console.ReadLine());
             Console.WriteLine($"Tôi tên là {ten}, {tuoi} tuổi, nặng {cannnang} kg");
-
-
+            // Nhập xuất thông tin của người yêu cũ, bao gồm
+            // Tên, tuổi, 3V sau đó in ra màn hình thông tin (Y hệt câu trên)
+            // 3. Ép kiểu
+            // Trong lập trình, không phải bao giờ dữ liệu cũng thuận tiện ngay cho
+            // việc xử lý nên nhiều khi sẽ phải thực hiện việc ép kiểu để phù hợp
+            // cho công việc tính toán, xử lý,...
+            // Có 2 loại ép kiểu: Trực tiếp (Chủ động), Ngầm định (Bị động)
+            // Ép kiểu trực tiếp là khi lập trình viên chủ động thực hiện việc ép
+            // kiểu thông qua các câu lệnh còn ép kiểu ngầm định là khi chương trình
+            // sẽ tự động ép kiểu để có thể thực hiện được các câu lệnh
+            // a. Trực tiếp
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = (int)1.5;
+            double z = double.Parse("1.2345");
+            // b. Ngầm định 
+            float w = 1.5f + 2;
+            string k = "abc" + 1; // Ép kiểu ngầm định 1 về string
+            /*
+             * Lưu ý: Dù là cách ép kiểu nào thì dữ liệu được được ép (convert) phải
+             * thỏa mãn điều kiện đầu ra (VD: Không thể ép chuỗi abc thành int)
+             * Khi ép kiểu ngầm định, thì kiểu dữ liệu đầu ra sẽ có độ bao phủ >
+             * kiểu dữ liệu đầu vào
+             */
+            //int aa = Convert.ToInt32("abc"); // Khi chạy sẽ gây ra lỗi
+            //Console.WriteLine(aa);
+            //int k1 = 1932347982347834;
+            string k2 = ""+ 193234798234782342423423423434.0;
+            Console.WriteLine(k2);
         }
     }
 }
