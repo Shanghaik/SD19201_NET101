@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi1_NhapXuat", "Buoi1_Nha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi2_Kieudulieu_Nhapxuat", "Buoi2_Kieudulieu_Nhapxuat\Buoi2_Kieudulieu_Nhapxuat.csproj", "{6DC1A1EA-FD91-4CC3-B6B4-C7B6063A9278}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi3_ToanTu_CaulenhDieukien", "Buoi3_ToanTu_CaulenhDieukien\Buoi3_ToanTu_CaulenhDieukien.csproj", "{7657ACCB-15C6-4239-BD50-62F38D9EB578}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6DC1A1EA-FD91-4CC3-B6B4-C7B6063A9278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DC1A1EA-FD91-4CC3-B6B4-C7B6063A9278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DC1A1EA-FD91-4CC3-B6B4-C7B6063A9278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7657ACCB-15C6-4239-BD50-62F38D9EB578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7657ACCB-15C6-4239-BD50-62F38D9EB578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7657ACCB-15C6-4239-BD50-62F38D9EB578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7657ACCB-15C6-4239-BD50-62F38D9EB578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
