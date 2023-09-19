@@ -83,7 +83,36 @@ namespace Buoi3_ToanTu_CaulenhDieukien
                 Console.WriteLine($"{y} lớn nhất");
             }
             else Console.WriteLine($"{z} lớn nhất");
-
+            // Cách 2 dùng toán tử 3 ngôi
+            // VD cách dùng: so sánh x và y
+            int more = x >= y ? x : y; // So sánh x và y, nếu x lớn
+            // hơn thì more = x ngược lại thì = y
+            // điều kiện ? giá trị nếu dk đúng : giá trị nếu đk sai
+            Console.WriteLine(more);
+            // Áp dụng 3 ngôi để tìm số lớn nhất
+            int max = x >= y && x >= z ? x : (y >= z ? y : z);
+            Console.WriteLine("Max là " + max);
+            // Tìm số lớn thứ 2 trong 3 số
+            // Cách 1: Dùng if-else
+            if (x >= y && x <= z || x <= y && x >= z)
+            {
+                Console.WriteLine(x + " là số lớn thứ 2");
+            }
+            else if (y >= x && y <= z || y >= z && y <= x)
+            {
+                Console.WriteLine(y + " là số lớn thứ 2");
+            }
+            else Console.WriteLine(z + " là số lớn thứ 2");
+            // Cách 2: Tìm max, tìm min sau đó lấy tổng 3 số trừ max - min
+            int min = x <= y && x <= z ? x : (y <= z ? y : z);
+            Console.WriteLine((x + y + z - max - min) + " là số lớn thứ 2");
+            // Cách 3: Sử dụng tính chất của số lớn thứ 2
+            int second = (x - y) * (x - z) <= 0 ? x : (y - z) * (y - x) <= 0 ? y : z;
+            Console.WriteLine(second + " là số lớn thứ 2 =))");
+            // Phân tích cách 3: Số lớn nhất nếu trừ đi 2 số còn lại => Dương
+            // Số bé nhất trừ đi 2 số còn lại => âm
+            // Chỉ có số thứ 2 trừ đi 2 số còn lại thì ra 2 kết quả trái dấu
+            // tích của 2 kết quả đó luôn <= 0 
         }
     }
 }
