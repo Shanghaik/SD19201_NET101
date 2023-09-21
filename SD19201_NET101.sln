@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi2_Kieudulieu_Nhapxuat",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi3_ToanTu_CaulenhDieukien", "Buoi3_ToanTu_CaulenhDieukien\Buoi3_ToanTu_CaulenhDieukien.csproj", "{7657ACCB-15C6-4239-BD50-62F38D9EB578}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi4_Vonglap", "Buoi4_Vonglap\Buoi4_Vonglap.csproj", "{314FFD41-BF08-4360-A0B8-501123C3FF0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7657ACCB-15C6-4239-BD50-62F38D9EB578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7657ACCB-15C6-4239-BD50-62F38D9EB578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7657ACCB-15C6-4239-BD50-62F38D9EB578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314FFD41-BF08-4360-A0B8-501123C3FF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314FFD41-BF08-4360-A0B8-501123C3FF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314FFD41-BF08-4360-A0B8-501123C3FF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314FFD41-BF08-4360-A0B8-501123C3FF0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
