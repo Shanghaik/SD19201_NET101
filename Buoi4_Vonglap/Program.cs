@@ -68,7 +68,9 @@ namespace Buoi4_Vonglap
             Console.WriteLine(k + 2);
             // ++ --
             int z = 9;
-            Console.WriteLine($"{z++} {++z} {--z} {z--} {z}");
+            // Console.WriteLine($"{z++} {++z} {--z} {z--} {z}");
+            // Sử dụng vòng lặp để Nhập thông tin của những người yêu cũ
+            // bao gồm: chiều cao, cân nặng, sở thích, tuổi
             Console.ReadKey();
         }
     }
