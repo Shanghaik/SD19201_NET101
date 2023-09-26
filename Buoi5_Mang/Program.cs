@@ -52,13 +52,17 @@ namespace Buoi5_Mang
             //    if (i % 3 == 0) continue;// break; // Khi gặp số %3 thì bỏ qua vòng lặp
             //    Console.Write(i + " ");
             //}
-            
+
             // In 1 mảng trên 1 dòng mà không cần vòng lặp
-            int[] arr = { 1, 22, 3, 324, 67, 13, 345 };
-            Console.WriteLine(string.Join("---", arr));
-            // Phương thức string.Join cho phép chúng ta kết hợp tất cả phần tử của
-            // một tập hợp nào đó thành 1 chuỗi thông qua 1 chuỗi kí tự nối
-            Console.ReadKey(); // Dừng màn hình để đọc 1 key - phím
+            //int[] arr = { 1, 22, 3, 324, 67, 13, 345 };
+            //Console.WriteLine(string.Join("---", arr));
+            //Phương thức string.Join cho phép chúng ta kết hợp tất cả phần tử của
+            //một tập hợp nào đó thành 1 chuỗi thông qua 1 chuỗi kí tự nối
+            //Console.ReadKey(); // Dừng màn hình để đọc 1 key - phím
+            int x = int.MaxValue;
+            Console.WriteLine(x);
+            Console.WriteLine(x+1);
+            Console.ReadKey();
         }
     }
 }
