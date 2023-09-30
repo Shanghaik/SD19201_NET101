@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi5_Ham_Function", "Buoi5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi6_Function", "Buoi6_Function\Buoi6_Function.csproj", "{ABB065CB-6091-41A2-A6C7-9B313B89BB01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi7_ChuaLab", "Buoi7_ChuaLab\Buoi7_ChuaLab.csproj", "{05BB519D-EDC7-4A01-AC7C-7396FED36FB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{ABB065CB-6091-41A2-A6C7-9B313B89BB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABB065CB-6091-41A2-A6C7-9B313B89BB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABB065CB-6091-41A2-A6C7-9B313B89BB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BB519D-EDC7-4A01-AC7C-7396FED36FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BB519D-EDC7-4A01-AC7C-7396FED36FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BB519D-EDC7-4A01-AC7C-7396FED36FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BB519D-EDC7-4A01-AC7C-7396FED36FB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
