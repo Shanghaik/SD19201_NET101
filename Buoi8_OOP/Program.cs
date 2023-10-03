@@ -29,6 +29,18 @@ namespace Buoi8_OOP
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            // Tạo đối tượng bằng constructor
+            Connguoi nguoi1 = new Connguoi(); // Không tham số
+            // Gọi phương thức của đối tượng
+            nguoi1.InThongTin();
+            Connguoi nguoi2 = new Connguoi("Lê Văn Luyện", DateTime.Now, true, "Bắc Giang", "Học sinh");
+            nguoi2.InThongTin();
+            Connguoi nguoi3 = new Connguoi("Năm Cam", DateTime.Now, "Sài Gòn");
+            nguoi3.Gioitinh = true; // Sử dụng Property để gán giá trị
+            nguoi3.InThongTin();
+            Console.WriteLine("Tên người số 3 là: "+ nguoi3.Ten); // Sử dụng Property để lấy giá trị
+            Console.ReadKey();
         }
     }
 }
