@@ -34,6 +34,10 @@ namespace Buoi9_4TC_OOP_1
             sv.Dob = DateTime.Now;
             sv.Nganh = "UDPM";
             sv.InThongTin();
+            // SinhvienUDPM svud = new Sinhvien();
+            // Constructor Sinhvien chỉ có thể tạo 5 thuộc tính nhưng SinhvienUDPM có 7 thuộc tính
+            // => Không tạo được đối tượng SinhvienUDPM bằng Constructor của lớp cha Sinhvien
+            Sinhvien sv2 = new SinhvienUDPM();
             Console.ReadKey();
         }
     }

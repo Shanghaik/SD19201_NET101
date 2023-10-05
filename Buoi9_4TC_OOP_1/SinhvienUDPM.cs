@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Buoi8_OOP;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 namespace Buoi9_4TC_OOP_1
 {
     // Trong C# chúng ta có thể lập trình để class này kế thừa duy nhất 1 class khác
-    // Khi kế thừa, class kế thừa (class con) sẽ chứa tất cả các thành phần của
+    // Khi kế thừa, class kế thừa (class con) sẽ chứa tất cả các thành phần không private của
     // class được kế thừa (class cha)
     // Cú pháp kế thừa chúng ta sử dụng dấu ':'
     internal class SinhvienUDPM : Sinhvien
@@ -38,6 +39,11 @@ namespace Buoi9_4TC_OOP_1
         public string Chuyennganh { get => chuyennganh; set => chuyennganh = value; }
         public double Gpa { get => gpa; set => gpa = value; }
         
+        public void InThongTin()
+        {
+            base.InThongTin(); // Gọi phương thức từ lớp cha (base ở đây chính là lớp cha)
+            Console.WriteLine($"Bạn học chuyên ngành {chuyennganh} với GPA = {gpa}");
+        }
 
     }
 }

@@ -12,7 +12,7 @@ namespace Buoi8_OOP
     // Constructor (hàm tạo) - được dùng để tạo thuộc tính cho đối tượng
     // Properties - Được dùng để truy suất tới các thuộc tính
     // Method - Phương thức để thể hiện các hành động đăc chưng của đối tượng
-    internal class Connguoi
+    public class Connguoi
     {
         // Các thuộc tính
         string ten;

@@ -51,5 +51,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Buoi8_OOP\Buoi8_OOP.csproj">
+      <Project>{acf9698f-3559-4e20-9a2b-3e20e76bb577}</Project>
+      <Name>Buoi8_OOP</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
