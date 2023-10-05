@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi7_ChuaLab", "Buoi7_Chua
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi8_OOP", "Buoi8_OOP\Buoi8_OOP.csproj", "{ACF9698F-3559-4E20-9A2B-3E20E76BB577}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi9_4TC_OOP_1", "Buoi9_4TC_OOP_1\Buoi9_4TC_OOP_1.csproj", "{27FF9C82-7F85-49A0-8075-9097080E79DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{ACF9698F-3559-4E20-9A2B-3E20E76BB577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF9698F-3559-4E20-9A2B-3E20E76BB577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF9698F-3559-4E20-9A2B-3E20E76BB577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FF9C82-7F85-49A0-8075-9097080E79DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FF9C82-7F85-49A0-8075-9097080E79DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FF9C82-7F85-49A0-8075-9097080E79DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FF9C82-7F85-49A0-8075-9097080E79DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
