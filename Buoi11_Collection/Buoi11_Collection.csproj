@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F58D27F-11C5-4AC7-B132-45A19EE4C8F6}</ProjectGuid>
+    <ProjectGuid>{F440CC61-3F27-4830-8679-AE6715D3E193}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Buoi10_4TC_OOP_2</RootNamespace>
-    <AssemblyName>Buoi10_4TC_OOP_2</AssemblyName>
+    <RootNamespace>Buoi11_Collection</RootNamespace>
+    <AssemblyName>Buoi11_Collection</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ca.cs" />
-    <Compile Include="Cachep.cs" />
-    <Compile Include="Cavoi.cs" />
-    <Compile Include="Chota.cs" />
-    <Compile Include="Chotay.cs" />
-    <Compile Include="Concho.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Toipham.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

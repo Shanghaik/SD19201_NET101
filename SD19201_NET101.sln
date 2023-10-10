@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi9_4TC_OOP_1", "Buoi9_4T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi10_4TC_OOP_2", "Buoi10_4TC_OOP_2\Buoi10_4TC_OOP_2.csproj", "{1F58D27F-11C5-4AC7-B132-45A19EE4C8F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi11_Collection", "Buoi11_Collection\Buoi11_Collection.csproj", "{F440CC61-3F27-4830-8679-AE6715D3E193}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{1F58D27F-11C5-4AC7-B132-45A19EE4C8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F58D27F-11C5-4AC7-B132-45A19EE4C8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F58D27F-11C5-4AC7-B132-45A19EE4C8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F440CC61-3F27-4830-8679-AE6715D3E193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F440CC61-3F27-4830-8679-AE6715D3E193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F440CC61-3F27-4830-8679-AE6715D3E193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F440CC61-3F27-4830-8679-AE6715D3E193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
