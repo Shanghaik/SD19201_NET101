@@ -26,8 +26,10 @@ namespace Buoi12_Luyentap_List_OOP
                         services.XuatDanhSach();
                         break;
                     case "3":
+                        services.XuatDanhSachTheoKhoang();
                         break;
                     case "4":
+                        services.XoaIDChanC2();
                         break;
                     case "0":
                         Environment.Exit(0);    

@@ -40,11 +40,64 @@ namespace Buoi12_Luyentap_List_OOP
         }
         public void XuatDanhSach()
         {
+            if(giaoviens.Count == 0)
+            {
+                Console.WriteLine("Danh sách trống, hãy nhập đã");
+                NhapDanhSach();
+            }
             Console.WriteLine("Danh sách Giảng viên là: ");
             foreach (var item in giaoviens)
             {
                 item.InThongTin();
             }
+        }
+        public void XuatDanhSachTheoKhoang()
+        {
+            Console.WriteLine("Nhập số giờ dạy tối thiểu");
+            int min = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Nhập số giờ dạy tối đa");
+            int max = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Danh sách Giảng viên là: ");
+            foreach (var item in giaoviens)
+            {
+                if(item.Sogioday >= min && item.Sogioday <= max)
+                {
+                    item.InThongTin();
+                }
+            }
+        }
+        public void XoaIDChanC1()
+        {
+            int goc = giaoviens.Count;
+            for (int i = 0; i < giaoviens.Count; i++)
+            {
+                if (giaoviens[i].Id %2 == 0)
+                {
+                    giaoviens.RemoveAt(i); 
+                    i--; // Khi xóa xong, thì vị trí cần kiểm tra giữ nguyên
+                }
+            }
+            Console.WriteLine($"Đã xóa {goc - giaoviens.Count} GV");
+        }
+        public void XoaIDChanC2()
+        {
+            int goc = giaoviens.Count;
+            // giaovien.ToList() sẽ tạo ra 1 list mới để đối chiếu với list cũ
+            foreach (var item in giaoviens.ToList())
+            {
+                if (item.Id % 2 == 0)
+                {
+                    giaoviens.Remove(item);
+ 
+                }
+            }
+            Console.WriteLine($"Đã xóa {goc - giaoviens.Count} GV");
+        }
+        public void XoaIDChan3() // Giới thiệu, không khuyến khích
+        {
+            int goc = giaoviens.Count;
+            giaoviens.RemoveAll(p => p.Id % 2 == 0); // LinQ với lambda expression
+            Console.WriteLine($"Đã xóa {goc - giaoviens.Count} GV");
         }
     }
 }
