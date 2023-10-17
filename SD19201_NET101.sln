@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi12_Luyentap_List_OOP", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuyentapTongHop", "LuyentapTongHop\LuyentapTongHop.csproj", "{2BD5C597-4866-44A6-BA90-6855F77A5E1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XuLyChuoi", "XuLyChuoi\XuLyChuoi.csproj", "{7C28331E-C074-4A62-B082-8007CF3BA92F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{2BD5C597-4866-44A6-BA90-6855F77A5E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BD5C597-4866-44A6-BA90-6855F77A5E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BD5C597-4866-44A6-BA90-6855F77A5E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C28331E-C074-4A62-B082-8007CF3BA92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C28331E-C074-4A62-B082-8007CF3BA92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C28331E-C074-4A62-B082-8007CF3BA92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C28331E-C074-4A62-B082-8007CF3BA92F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
